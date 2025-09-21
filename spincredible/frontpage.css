@@ -19,25 +19,17 @@
                    position: relative;
                }
 
-.banner-img  {
-            width: 100%;
-              height: auto;
-              display: block;
-              object-fit: cover;
-              object-position: center center;
-             }
-                
-            
-
-
+.banner-img       {width: 100%;
+                   height: auto;
+                   display: block;
+                   object-fit: cover;
+                   object-position: center center;}
 
 .about            {display: flex;
-                
                    background-color: whitesmoke;
                    height: 8em}
 
-.om-foretaget  {display: flex;
-                   
+.om-foretaget     {display: flex;
                    background-color: white;
                    height: 8em}
 
@@ -45,4 +37,5 @@ footer            {display: flex;
                    background-color: whitesmoke}
                 
                  
+
                     
