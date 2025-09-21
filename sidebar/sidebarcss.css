@@ -1,0 +1,12 @@
+
+
+.sidebar      {
+               display: flex;
+               flex-direction: column;
+               justify-content: space-evenly;
+               margin-left: 4em;
+               width: 5em;
+               height: 27em;
+               } 
+
+.sidebar-in > * {max-width: 100%;}
