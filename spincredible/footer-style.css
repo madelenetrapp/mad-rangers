@@ -40,7 +40,7 @@ body {
 }
 
 .footer-contact {
-  text-align: right;
+  text-align: left;
   font-size: 14px;
   text-decoration: none;
   color: black;
@@ -67,3 +67,7 @@ body {
     flex-direction: row;
 }
 
+.vinylspelare {
+  width: 100px;  
+  height: auto; 
+}
