@@ -1,13 +1,19 @@
 
+body {
+  min-height: 100vh;
+  font-family: "Ultra", serif;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  min-height: 100vh;
-  font-family:'Courier New', Courier, monospace;
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .footer {
@@ -15,57 +21,29 @@ body {
   flex-direction: row;
   justify-content: space-between;
   padding: 1em 2em;
-  color: black;
+  color: rgba(234, 56, 32, 0.974);
   position: fixed;
   bottom: 0;
   width: 100%;
   height: fit-content;
-  background: hotpink;
+  background: rgba(135, 33, 1, 0.496)
 }
 
 .footer-about {
   text-align: left;
   font-size: 14px;
-  color: black;
-  
-}
-
-.footer-about h2 {
-  margin-bottom: 2px;
-  font-size: 16px;
+  color: rgba(234, 56, 32, 0.974);
 }
 
 .footer-about p {
   margin-bottom: 4px;
 }
 
-.footer-about img {
-  width: 80px;
-  height: auto;
-}
-
-.footer-support img {
-    width: 80px;
-  height: auto; 
-}
-
-.footer-support {
+.footer-contact {
   text-align: right;
   font-size: 14px;
   text-decoration: none;
-  color: black;
-}
-
-.footer-support ul {
-  list-style: none;
-}
-
-.footer-support li {
-  margin-bottom: 2px;
-}
-
-.footer-members {
-    text-align: center;
+  color: rgba(234, 56, 32, 0.974);
 }
 
 .linked-img {
@@ -79,7 +57,7 @@ body {
     height: fit-content;
   }
 
-.footer-about, .footer-members, .footer-support {
+.footer-about, .footer-contact {
     text-align: center;
   }
 }
@@ -88,3 +66,4 @@ body {
     display: flex;
     flex-direction: row;
 }
+
