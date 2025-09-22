@@ -22,7 +22,7 @@ body {
   justify-content: space-between;
   padding: 1em 2em;
   color: rgba(234, 56, 32, 0.974);
-  position: fixed;
+  /*position: fixed;*/
   bottom: 0;
   width: 100%;
   height: fit-content;
@@ -32,7 +32,7 @@ body {
 .footer-about {
   text-align: left;
   font-size: 14px;
-  color: rgba(234, 56, 32, 0.974);
+  color: black;
 }
 
 .footer-about p {
@@ -43,7 +43,7 @@ body {
   text-align: right;
   font-size: 14px;
   text-decoration: none;
-  color: rgba(234, 56, 32, 0.974);
+  color: black;
 }
 
 .linked-img {
