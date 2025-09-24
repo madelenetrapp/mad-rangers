@@ -1,0 +1,120 @@
+* { font-family: "Zalando Sans SemiExpanded" }
+
+
+
+
+.header-container {height: 5em;
+                   display: flex;
+                   align-items: center;}
+
+.header-container div
+                  {background-color: rgb(255, 255, 255);}
+
+.header-middle    {display: flex; flex: 1}
+
+.header-right     {display: flex;
+                   gap: 1em;
+                   margin-right: 1em}
+                
+.header-right > div:hover
+                  {display: inline-block;
+                   cursor: pointer;
+                   transition: text-shadow 0.3s ease;
+                   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);}
+              
+.logo             {height: 5vh}
+.logo:hover       {cursor: pointer}
+
+
+.banner           {width: 100; 
+                   height: 50vh;
+                   overflow: hidden; 
+                   position: relative;}
+
+.banner-image     {width: 100%;
+                   height: 100%;
+                   display: block;
+                   object-fit: cover;}
+
+.about1           {display: flex;
+                   flex-direction: column;
+                   margin-top: 1em;
+                   padding-top: 3em;
+                   padding-bottom: 3em;
+                   padding-left: 5em;
+                   background-color: rgb(246, 241, 241);}
+
+.about-rubrik     {padding-bottom: 0.8em}
+.about-foretag-rubrik
+                  {padding-bottom: 0.8em}
+
+.about-text       { }
+
+.link            {margin-top: 0.5em}
+
+.about {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  padding: 2em;
+  text-align: center;
+  background-color: whitesmoke;
+  gap: 1.5em;
+}
+
+.about .image-row {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  gap: 2em; 
+  width: 100%;
+  max-width: 1200px;
+}
+
+.about .product  {
+  flex: 1 1 200px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.about .product img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .about .image-row {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.about .product {
+    max-width: 90%;
+}
+
+.om-foretaget {
+  display: flex;
+  /*jag lägger till här flex-direction, justifi content, padding, text align*/
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  text-align: center;
+  background-color: whitesmoke;
+  min-height: 8em;
+}
+
+.om-foretaget-rubrik {
+  text-align: center;
+}
+
+.om-foretaget-text {
+  text-align: center;
+}
+
+/*tog bort och lade footern som en egen css*/
+/* footer            {display: flex;
+                   background-color: whitesmoke}*/
+                
