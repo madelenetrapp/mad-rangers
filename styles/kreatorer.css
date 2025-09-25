@@ -1,0 +1,46 @@
+* { font-family: "Zalando Sans SemiExpanded" }
+
+
+.kreatorer         {display: grid;
+                    grid-template-columns: auto auto 14em auto;
+                    grid-template-rows: 20em;
+                    background-color: rgb(255, 255, 255);
+                  }
+
+.kreatorer div     {display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                    overflow: hidden;
+                    background-color: rgb(246, 241, 241);;
+                    margin: 2em 0em 0em 0em;
+                    height: 18em}
+
+
+.arnor-image      {max-height: 80%;
+                   max-width: 100%;
+                   object-fit: cover;
+                   border-radius: 1em;
+                   border: 0.1em solid #FA7D32;}
+            
+.kreator-info     {display: flex;
+                   flex-direction: column;
+                   height: 100%;
+                   padding-top: 1em;
+                   padding-left: 2em}
+
+.quote            {font-style: italic;
+                   margin-top: 2em;
+                   margin-bottom: 4em;
+                   }
+            
+.socialmedia > img   
+                  {padding-left: 1em;
+                   max-width: 35%;
+                   max-height: 35%;
+                
+                   }
+                
+                 
+                   
+                   
+           
