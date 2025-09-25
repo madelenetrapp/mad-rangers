@@ -86,7 +86,7 @@
   gap: 1.5em;
 }
 
-.about .image-row {
+.about  {
   display: flex;
   flex-direction: column; 
   gap: 5em; 
@@ -131,7 +131,7 @@
 }
 
 .about .foretag {
-    max-width: 90%;
+  /* max-width: 90%; */
 }
 
 .om-foretaget {

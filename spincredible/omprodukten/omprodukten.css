@@ -2,9 +2,6 @@
   font-family: "Zalando Sans SemiExpanded" 
 }
 
-
-
-
 .header-container {
   height: 5em;
   display: flex;
@@ -33,11 +30,11 @@
 }
               
 .logo {
-  height: 5vh
+  height: 5vh;
 }
 
 .logo:hover {
-  cursor: pointer
+  cursor: pointer;
 }
 
 .banner {
@@ -135,6 +132,7 @@
 
 .about .product {
     max-width: 90%;
+    border-bottom: 1em solid white;
 }
 
 .om-foretaget {
