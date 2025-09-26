@@ -1,7 +1,6 @@
 * { 
   font-family: "Zalando Sans SemiExpanded" 
 }
-
 .header-container {
   height: 5em;
   display: flex;
@@ -51,102 +50,55 @@
   object-fit: cover;
 }
 
-.about1 {
-  display: flex;
-  flex-direction: column;
-  margin-top: 1em;
-  padding-top: 3em;
-  padding-bottom: 3em;
-  padding-left: 5em;
-  background-color: rgb(246, 241, 241);
-}
-
-.about-rubrik {
-  padding-bottom: 0.8em
-}
-
-.about-foretag-rubrik {
-  padding-bottom: 0.8em
-}
-
-.link {
-  margin-top: 0.5em
-}
-
 .about {
-  display: flex;
-  flex-direction: column; 
-  align-items: center;
-  padding: 2em;
-  margin: 5em;
-  text-align: center;
+  margin: 3em;
   background-color: whitesmoke;
   margin-left: 0;
   margin-right: 0;
   gap: 1.5em;
-}
-
-.about  {
-  display: flex;
-  flex-direction: column; 
-  gap: 5em; 
-  width: 100%;
-  max-width: 1200px;
-}
-
-.about .foretag {
-  display: grid;
-  grid-template-columns: 1fr 2fr; 
-  gap: 1.5em;
   align-items: center; 
 }
 
-.about .foretag img {
+.company {
+  display: grid;
+  grid-template-columns: 1fr 2fr; 
+  gap: 1.5em;
+  text-align: left;
+}
+
+.image {
   width: 100%;
   height: auto;
   border-radius: 8px;
 }
 
-.about .foretag figcaption {
-  text-align: left;
+figcaption {
+  text-align: left; /*????*/
 }
 
-.product-name {
-  font-weight: bold;
-  /* font-size: 1.3em; */
+p {
+  display: block;
+  margin-bottom: 1em;
 }
 
-@media (max-width: 768px) {
-  .about .foretag {
+.paragrapf1 {
+  margin-top: 1em;
+}
+
+@media (max-width: 768px) {    /*har lagt den först då jag ändrar texten i detta läge och inte vill att den ska overrida de övriga media querys*/
+  .company {
+    grid-template-columns: 1fr;
+  } 
+}
+
+@media (max-width: 600px) {
+  .company {
     grid-template-columns: 1fr;
   }
 }
 
-
-@media (max-width: 768px) {
-  .about .image-row {
-    flex-direction: column;
-    align-items: center;
+@media (max-width: 992px) {
+  .company {
+  grid-template-columns: 1fr;
   }
 }
-
-.about .foretag {
-  /* max-width: 90%; */
-}
-
-.om-foretaget {
-  display: flex;
-  /*jag lägger till här flex-direction, justifi content, padding, text align*/
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2em;
-  text-align: center;
-  background-color: whitesmoke;
-  min-height: 8em;
-}
-
-/*tog bort och lade footern som en egen css*/
-/* footer            {display: flex;
-                   background-color: whitesmoke}*/
-                

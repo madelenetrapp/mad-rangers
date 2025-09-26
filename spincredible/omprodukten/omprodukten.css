@@ -1,7 +1,6 @@
 * { 
   font-family: "Zalando Sans SemiExpanded" 
 }
-
 .header-container {
   height: 5em;
   display: flex;
@@ -30,11 +29,11 @@
 }
               
 .logo {
-  height: 5vh;
+  height: 5vh
 }
 
 .logo:hover {
-  cursor: pointer;
+  cursor: pointer
 }
 
 .banner {
@@ -51,16 +50,6 @@
   object-fit: cover;
 }
 
-.about1 {
-  display: flex;
-  flex-direction: column;
-  margin-top: 1em;
-  padding-top: 3em;
-  padding-bottom: 3em;
-  padding-left: 5em;
-  background-color: rgb(246, 241, 241);
-}
-
 .about-rubrik {
   padding-bottom: 0.8em
 }
@@ -69,85 +58,73 @@
   padding-bottom: 0.8em
 }
 
-.link {
-  margin-top: 0.5em
-}
-
 .about {
-  display: flex;
-  flex-direction: column; 
-  align-items: center;
-  padding: 2em;
   margin: 5em;
-  text-align: center;
   background-color: whitesmoke;
   margin-left: 0;
   margin-right: 0;
   gap: 1.5em;
+
 }
 
-.about .image-row {
-  display: flex;
-  flex-direction: column; 
-  gap: 5em; 
-  width: 100%;
-  max-width: 1200px;
+.white-border {
+  border-bottom: 2em solid white;
+  padding: 4em;
 }
 
-.about .product {
+.product {
   display: grid;
   grid-template-columns: 1fr 2fr; 
   gap: 1.5em;
   align-items: center; 
+
 }
 
-.about .product img {
+.product img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+
 }
 
-.about .product figcaption {
+.product-text {
+  text-align: left;
+  padding: 0;
+}
+
+.stycke {
+  margin-top: 1em;
+}
+
+p {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.product figcaption {
   text-align: left;
 }
 
 .product-name {
   font-weight: bold;
-  /* font-size: 1.3em; */
 }
 
-@media (max-width: 768px) {
-  .about .product {
+@media (max-width: 768px) {    /*har lagt den först då jag ändrar texten i detta läge och inte vill att den ska overrida de övriga media querys*/
+  .product {
+    grid-template-columns: 1fr;
+  } 
+}
+
+@media (max-width: 600px) {
+  .product {
     grid-template-columns: 1fr;
   }
 }
 
-
-@media (max-width: 768px) {
-  .about .image-row {
-    flex-direction: column;
-    align-items: center;
+@media (max-width: 992px) {
+  .product {
+  grid-template-columns: 1fr;
   }
 }
 
-.about .product {
-    max-width: 90%;
-    border-bottom: 1em solid white;
-}
-
-.om-foretaget {
-  display: flex;
-  /*jag lägger till här flex-direction, justifi content, padding, text align*/
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2em;
-  text-align: center;
-  background-color: whitesmoke;
-  min-height: 8em;
-}
-
-/*tog bort och lade footern som en egen css*/
-/* footer            {display: flex;
-                   background-color: whitesmoke}*/
                 
