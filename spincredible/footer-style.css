@@ -17,6 +17,7 @@ body {
 }
 
 .footer {
+  margin-top: 1em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -25,13 +26,13 @@ body {
   /*position: fixed;*/
   bottom: 0;
   width: 100%;
-  height: fit-content;
-  background: rgba(135, 33, 1, 0.496)
+  height: 14em;
+  background: rgba(133, 109, 102, 0.496)
 }
 
 .footer-about {
   text-align: left;
-  font-size: 14px;
+  font-size: 20px;
   color: black;
 }
 
@@ -41,7 +42,7 @@ body {
 
 .footer-contact {
   text-align: left;
-  font-size: 14px;
+  font-size: 20px;
   text-decoration: none;
   color: black;
 }
