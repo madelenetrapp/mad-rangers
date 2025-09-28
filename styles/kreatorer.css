@@ -1,46 +1,106 @@
 * { font-family: "Zalando Sans SemiExpanded" }
 
+.kreatorer-title-container {
+                    background-color: rgb(246, 241, 241);
+                    text-align: center;
+                    width: 100%;
+                    border-bottom: 2px solid #ddd;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: 1em;
+                    height: 4em;
+                    line-height: 0.2em;
+                    max-width: 100%;
+                    min-width: 5em;}
+
+.kreatorer-title   {font-size: 1.8em;
+                    background-color: rgb(246, 241, 241);
+                    font-weight: 900;   
+                    letter-spacing: 0.05em;
+                    color: #333;
+                    font-style: normal;
+                    padding-top: 0.6em;}
 
 .kreatorer         {display: grid;
-                    grid-template-columns: auto auto 14em auto;
-                    grid-template-rows: 20em;
-                    background-color: rgb(255, 255, 255);
-                  }
+                    grid-template-columns: 14em auto 14em auto;
+                    grid-template-rows: 19em;
+                    background-color: rgb(246, 241, 241);}
 
-.kreatorer div     {display: flex;
+.kreatorer-box     {display: flex;
                     justify-content: center;
                     align-items: flex-start;
                     overflow: hidden;
-                    background-color: rgb(246, 241, 241);;
-                    margin: 2em 0em 0em 0em;
-                    height: 18em}
+                    background-color: rgb(246, 241, 241);
+                    margin: 1em 0em 0em 0em;
+                    height: 22em}
 
 
-.arnor-image      {max-height: 80%;
-                   max-width: 100%;
-                   object-fit: cover;
-                   border-radius: 1em;
-                   border: 0.1em solid #FA7D32;}
+.kreator-image     {max-height: 80%;
+                    max-width: 100%;
+                    max-height: 75%;
+                    object-fit: cover;
+                    border-radius: 1em;
+                    border: 0.1em solid #FA7D32;
+                    margin-top: 1.5em;
+                    margin-left: 2.5em}
             
-.kreator-info     {display: flex;
-                   flex-direction: column;
-                   height: 100%;
-                   padding-top: 1em;
-                   padding-left: 2em}
+.kreator-info      {display: flex;
+                    flex-direction: column;
+                    height: 100%;
+                    padding-top: 0em;
+                    padding-left: 2em;}
 
-.quote            {font-style: italic;
-                   margin-top: 2em;
-                   margin-bottom: 4em;
-                   }
+.kreator-info h2   {margin-bottom: 0.1em;}
+
+.quote             {font-style: italic;
+                    margin:0;
+                    font-size: 0.9em;}
+ 
+.bio               {max-width: 20em;
+                    min-width: 10em;
+                    padding-top: 0.5em;
+                    }
+
+.socialmedia       {display: flex;
+                    flex-wrap: nowrap;}
+
+.socialmedia a     {text-decoration: none;
+                    display: inline-block;}
             
-.socialmedia > img   
-                  {padding-left: 1em;
-                   max-width: 35%;
-                   max-height: 35%;
-                
-                   }
-                
+.socialmedia  img   
+                   {padding-left: 2em;
+                    width: 2em;
+                    justify-content: space-between;
+                    overflow: auto;}
+
+.socialmedia  img:hover
+                   {cursor: pointer;
+                    transform: scale(1.1);
+                    transition: transform 0.3s ease;}
+
+
+
+
+             @media (max-width: 1000px) {
+
+.kreatorer         {grid-template-columns: 1fr;
+                    grid-template-rows: repeat(4, auto);
+                    gap: 1em;
+                    padding: 1em;
+                    justify-content: center;
+                    align-items: center;} 
+                  
+.kreatorer > *     {justify-content: center;
+                    align-items: center;
+                    text-align: center;}}
+
+
+
+
+
+
+
                  
                    
                    
-           
+          
