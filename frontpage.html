@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!--  byt språket till svenska -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,14 +11,13 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
       <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    </head>
 </head>
 
 <body>
         <header>
             <div class="header-container">
                 <div class="header-left">
-                    <img class="logo" src="img/spincredible-logo.png">
+                    <img class="logo" src="img/spincredible-logo.png"> <!-- An img element must have an alt attribute, except under certain conditions. -->
                 </div>
                 <nav class="header-right">
                     <div>Produkter</div>
@@ -29,8 +28,8 @@
             
         </header>
 
-        <section class="banner">
-            <img class="banner-image" src="img/banner3.png">
+        <section class="banner"> <!-- Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. -->
+            <img class="banner-image" src="img/banner3.png"> <!-- An img element must have an alt attribute, except under certain conditions. -->
         </section>
  
         <section class="about1">
@@ -63,14 +62,13 @@
         </section>
         
 
-        <footer class=footer><footer class="footer">
-                <div class="footer-contact">
+        <footer class=footer><footer class="footer">  <!-- The element footer must not appear as a descendant of the footer element.// Unclosed element footer. -->
+                <div class="footer-contact"> <!--  Unclosed element div. (kan det vara att dom ligger på fel linje?)-->
                 <p>Kontakta oss</p>
                 <p>adress: Gustavslundsvägsgatan 14, 269 73 Vara</p>
                 <p>telenummer: 0701740619</p>
-            </div>
-        </footer>
-    </div>
+        </footer> <!-- End tag footer seen, but there were open elements. -->
+    </div> <!-- Stray end tag div. (kan det vara att dom ligger på fel linje) -->
     
-</body>
+</body> <!-- End tag for body seen, but there were unclosed elements. -->
 </html>

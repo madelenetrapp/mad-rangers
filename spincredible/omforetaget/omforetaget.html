@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
         <header>
             <div class="header-container">
             <div class="header-left">
-               <a href="../../frontpage.html"><img class="logo" src="../img/spincredible-logo.png"></a> 
+                <a href="../../frontpage.html"><img class="logo" src="../img/spincredible-logo.png"></a>  <!--An img element must have an alt attribute, except under certain conditions. -->
             </div>
             <div class="header-middle"></div>
             <div class="header-right"></div>
@@ -26,7 +26,7 @@
         </header>
 
         <section class="banner">
-            <img class="banner-image" src="../../img2/Untitled design (14).png">
+            <img class="banner-image" src="../../img2/Untitled design (14).png">  <!-- Bad value ../../img2/Untitled design (14).png for attribute src on element img: Illegal character in path segment: space is not allowed.  An img element must have an alt attribute, except under certain conditions-->
         </section>
  
         <section class="about">
@@ -35,8 +35,8 @@
                         <img class="image" src="../../img2/Untitled design (8).png" alt="Vinylspelare">
                         </a>
 
-                <div>      <!-- en div för att figcaption och p ska bli samma item i griden -->
-                    <figcaption><span class="text">Välkommen till Spincredible</span> -Företaget som förenar tidlös design med modern ljudkvalitet.</figcaption> 
+                <div>      <!-- en div för att figcaption och p ska bli samma item i griden GÖRA OM TILL CLASS? kommentar: Unclosed element div. -->
+                        <figcaption><span class="text">Välkommen till Spincredible</span> -Företaget som förenar tidlös design med modern ljudkvalitet.</figcaption> 
                             
                             <p class="paragrapf1">Vi brinner för att skapa vinylspelare som inte bara levererar en fantastisk musikupplevelse, 
                             utan också blir en elegant del av ditt hem. Med fokus på hållbara material, genuint hantverk 
@@ -48,8 +48,8 @@
                             fylligt, autentiskt ljud som tar fram det bästa ur varje skiva. Spincredible är mer än bara en produkt, det är en passion för musik, kvalitet och den klassiska känslan av att sänka 
                             nålen på en vinylskiva.</p> 
                     </figure> 
-                </div>  
-        </section>
+                </div> <!--  End tag div seen, but there were open elements. --> <!-- Stray end tag section. -->
+        </section> <!-- Stray end tag section. -->
 
 
         <footer class="footer">
