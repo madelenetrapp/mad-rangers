@@ -10,7 +10,7 @@
 }
 
 .about {
-  margin: 5em;
+  margin: 1em;
   background-color: whitesmoke;
   margin-left: 0;
   margin-right: 0;
@@ -19,8 +19,8 @@
 }
 
 .white-border {
-  border-bottom: 2em solid white;
-  padding: 4em;
+  border-bottom: 1em solid white;
+  padding: 3em;
 }
 
 .product {
@@ -60,7 +60,7 @@ p {
   font-weight: bold;
 }
 
-@media (max-width: 768px) {    /*har lagt den först då jag ändrar texten i detta läge och inte vill att den ska overrida de övriga media querys*/
+@media (max-width: 768px) {
   .product {
     grid-template-columns: 1fr;
   } 

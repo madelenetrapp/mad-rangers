@@ -30,6 +30,7 @@
                     padding-right: 1em;
                     padding-bottom: 1em;
                     gap: 1em;
+                    margin-bottom: 2em;
                     }
 
 .kreator > *:nth-child(1) { 
@@ -79,10 +80,12 @@
 .kreator-info      {display: flex;
                     flex-direction: column;
                     height: 100%;
-                    justify-content: center;
+                    justify-content: flex-start;
+                    align-items: flex-start;
                     padding-left: 1em;}
 
-.kreator-info h2   {margin-bottom: 0.1em;}
+.kreator-info h2   {margin-bottom: 0.1em;
+                    padding-top: 1em;}
 
 .quote             {font-style: italic;
                     margin:0;
@@ -103,9 +106,9 @@
                     flex-wrap: nowrap;
                     width: 14em;
                     max-width: 21em;
-                    justify-content: space-between;
+                    justify-content: flex-start;
                     gap: 3em;
-                    align-items: center;}
+                    margin-top: auto;}
 
 
 .socialmedia a     {text-decoration: none;
