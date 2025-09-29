@@ -31,4 +31,5 @@
                    height: 100%;
                    display: block;
                    object-fit: cover;
-                   object-position: center 80%;}
+                  /* object-position: center 80%; /*lägg in som en egen för det påverkar*/
+}

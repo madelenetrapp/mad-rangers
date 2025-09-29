@@ -1,62 +1,8 @@
-* { 
-  font-family: "Zalando Sans SemiExpanded" 
-}
-.header-container {
-  height: 5em;
-  display: flex;
-  align-items: center;
-}
-
-.header-container div {
-  background-color: rgb(255, 255, 255);
-}
-
-.header-middle {
-  display: flex; flex: 1
-}
-
-.header-right {
-  display: flex;
-  gap: 1em;
-  margin-right: 1em
-}
-                
-.header-right > div:hover {
-  display: inline-block;
-  cursor: pointer;
-  transition: text-shadow 0.3s ease;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
-}
-              
-.logo {
-  height: 5vh
-}
-
-.logo:hover {
-  cursor: pointer
-}
-
-.banner {
-  width: 100; 
-  height: 50vh;
-  overflow: hidden; 
-  position: relative;
-}
-
-.banner-image {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
-}
-
 .about {
   margin: 3em;
   background-color: whitesmoke;
   margin-left: 0;
   margin-right: 0;
-  gap: 1.5em;
-  align-items: center; 
 }
 
 .company {
@@ -69,11 +15,6 @@
 .image {
   width: 100%;
   height: auto;
-  border-radius: 8px;
-}
-
-figcaption {
-  text-align: left; /*????*/
 }
 
 p {
@@ -85,7 +26,7 @@ p {
   margin-top: 1em;
 }
 
-@media (max-width: 768px) {    /*har lagt den först då jag ändrar texten i detta läge och inte vill att den ska overrida de övriga media querys*/
+@media (max-width: 768px) {    
   .company {
     grid-template-columns: 1fr;
   } 
