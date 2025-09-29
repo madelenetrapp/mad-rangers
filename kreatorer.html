@@ -10,6 +10,7 @@
       <link rel="stylesheet" href="styles/frontpage.css">
       <link rel="stylesheet" href="styles/kreatorer.css">
       <link rel="stylesheet" href="styles/skyline.css">
+      <link rel="stylesheet" href="styles/footer.css">
 
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,15 +21,23 @@
 <body>
         <header>
             <div class="header-container">
-                <div class="header-left">
-                  <a href="frontpage.html">
+              <div class="header-left">
+                 <a href="frontpage.html">
                    <img class="logo" src="img/spincredible-logo.png">
-                  </a>                </div>
+                 </a>                
+              </div>
                 <nav class="header-right">
-                    <div>Produkten</div>
+                  <a href="omprodukten.html" class="navigation-link">
+                    <div>Produkter</div>
+                  </a>
+                  <a href="omforetaget.html" class="navigation-link">
                     <div>Om oss</div>
-                    <div>Kontakt</div>
+                  </a>
+                  <a href="kreatorer.html" class="navigation-link">
+                    <div>Kreatörerna</div>
+                  </a>
                 </nav>
+
             </div>
             
         </header>
@@ -45,26 +54,30 @@
 
         <section class="kreator">
             <div class="kreator-box">
-                <img class="kreator-image" src="img/65581.png">
+                <img class="kreator-image" src="img/madde.jpg">
             </div>
             <div class="kreator-info">
                 <h2>Madelene Trapp</h2>
                 <p class="quote">Grid-virtuos och layoutens logiker.</p>
                  <p class="bio">En 37-åring med livserfarenhet och en dröm. Jag bygger inte bara webbplatser – 
-                jag bygger karriär, och jag gör det med samma engagemang och målmedvetenhet 
-                som jag tar mig an varje projekt.</p>
+                                jag bygger karriär, och jag gör det med samma engagemang och målmedvetenhet 
+                                som jag tar mig an varje projekt.</p>
+                   
+                   
 
                 <div class="socialmedia">
                     <img src="ikoner/instagram-logo.png">
                     <img src="ikoner/facebook-logo.png">
+                <a href="https://github.com/madelenetrapp" target="_blank">
                     <img src="ikoner/github.png">
+                </a>
+                <a href="mailto:madelenetrapp@outlook.com">
                     <img src="ikoner/email-logo.png">
+                </a>
                 </div>
             </div>
-            <div class="kreator-box"> 
-                <img class="kreator-image" src="img/arnor.png">
-            </div>
-            <div class="kreator-info">
+
+            <div class="kreator-info arnorbio">
                 <h2>Arnór Daði Jónsson</h2>
                 <p class="quote">Flexbox fantast och digital visionär.</p>
                 <p class="bio">En 37-åring med livserfarenhet och en dröm. Jag bygger inte bara webbplatser – 
@@ -85,7 +98,15 @@
                  </a>
                 </div>
             </div>
+
+            <div class="kreator-box arnorimg"> 
+                <img class="kreator-image" src="img/arnor.png">
+            </div>
         </section>
+
+
+
+
 
 </body>
 </html>

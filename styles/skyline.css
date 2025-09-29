@@ -9,6 +9,16 @@
 .header-container div
                   {background-color: rgb(255, 255, 255);}
 
+.navigation-link           {text-decoration: none;
+                   color: black;}
+
+.navigation-link:hover     
+                  {display: inline-block;
+                   cursor: pointer;
+                   transition: text-shadow 0.2s ease;
+                   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+                   transform: scale(1.05);}
+
 .header-right     {display: flex;
                    gap: 1em;
                    margin-right: 2em;

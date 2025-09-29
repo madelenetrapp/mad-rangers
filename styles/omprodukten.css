@@ -1,0 +1,81 @@
+* { 
+  font-family: "Zalando Sans SemiExpanded" 
+}
+.about-rubrik {
+  padding-bottom: 0.8em
+}
+
+.about-foretag-rubrik {
+  padding-bottom: 0.8em
+}
+
+.about {
+  margin: 5em;
+  background-color: whitesmoke;
+  margin-left: 0;
+  margin-right: 0;
+  gap: 1.5em;
+
+}
+
+.white-border {
+  border-bottom: 2em solid white;
+  padding: 4em;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: 1fr 2fr; 
+  gap: 1.5em;
+  align-items: center; 
+
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+
+}
+
+.product-text {
+  text-align: left;
+  padding: 0;
+}
+
+.stycke {
+  margin-top: 1em;
+}
+
+p {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.product figcaption {
+  text-align: left;
+}
+
+.product-name {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {    /*har lagt den först då jag ändrar texten i detta läge och inte vill att den ska overrida de övriga media querys*/
+  .product {
+    grid-template-columns: 1fr;
+  } 
+}
+
+@media (max-width: 600px) {
+  .product {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 992px) {
+  .product {
+  grid-template-columns: 1fr;
+  }
+}
+
+                
