@@ -1,0 +1,81 @@
+
+body {
+  min-height: 100vh;
+  font-family: "Ultra", serif;
+}
+
+* {
+
+
+  box-sizing: border-box;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.footer {
+  border-top: 0.5em solid rgb(170, 164, 164);
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2.5em 2em;
+  color: rgba(234, 56, 32, 0.974);
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background: rgba(26, 20, 19, 0.496)
+}
+
+.footer-about {
+  text-align: left;
+  font-size: 16px;
+  color: #cccccc;;
+}
+
+.footer-about p {
+  margin: 0.4em 0;
+  line-height: 1.5;
+}
+
+.footer-contact p {
+  margin:0.4em 0;
+  line-height: 1.5;
+}
+
+.footer-contact {
+  text-align: left;
+  font-size: 20px;
+  text-decoration: none;
+  color: #cccccc;;
+}
+
+.linked-img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    height: fit-content;
+    padding: 1.5em 1em;
+  }
+
+.footer-about, .footer-contact {
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
+}
+
+.footer-images {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
